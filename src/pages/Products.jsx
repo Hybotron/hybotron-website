@@ -1,4 +1,6 @@
 import React from "react";
+import hybotronLogo from '../assets/hybotron_logo.png'
+import footerLogo from '../assets/footer_hybotron_logo.png'
 import "./Products.css";
 
 import aiSmartVision from "../assets/ai_smart_vision.png";
@@ -130,7 +132,7 @@ function Products() {
 
       <header className="products-navbar">
         <div className="products-logo">
-          <img src="/src/assets/hybotron_logo.png" alt="Hybotron" />
+          <img src={hybotronLogo} alt="Hybotron" />
         </div>
 
         <nav className="products-nav-links">
@@ -440,10 +442,7 @@ function Products() {
 
         <div className="products-footer-brand">
 
-          <img
-            src="/src/assets/footer_hybotron_logo.png"
-            alt="Hybotron"
-          />
+          <img src={footerLogo} alt="Hybotron" />
 
           <h2>HYBOTRON</h2>
 
